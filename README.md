@@ -40,6 +40,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Ruby classes for person, student and teacher**
+- **Uses a decorator class to capitalize and trim string**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
