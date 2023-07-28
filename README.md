@@ -62,7 +62,7 @@ In order to run this project you need:
 2. Clone this repo
 
 ```
-git clone git@github.com:Bifabig/school-library.git
+git clone git@github.com:Bifabig/school-library-ruby.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
