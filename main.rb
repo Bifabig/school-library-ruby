@@ -13,7 +13,7 @@ class Main
       display_options
       option = TakeInput.new.take_input
       @app.run(option)
-  
+
       break if option == 7
     end
   end
@@ -29,6 +29,5 @@ class Main
     puts '7. - Exit'
   end
 end
-
 
 Main.new

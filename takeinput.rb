@@ -8,5 +8,5 @@ class TakeInput
       option = gets.chomp.to_i
     end
     option
-  end  
+  end
 end

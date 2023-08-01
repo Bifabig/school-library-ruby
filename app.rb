@@ -10,7 +10,6 @@ require_relative 'displaybooks'
 require_relative 'displaypeople'
 require_relative 'rentallist'
 
-
 class App
   attr_accessor :books, :stundents, :teachers, :rental
 
