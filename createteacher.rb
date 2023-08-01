@@ -1,4 +1,5 @@
 require_relative 'app'
+require_relative 'teacher'
 
 module CreateTeacher
   def create_teacher(name, age, specialization)

@@ -13,8 +13,10 @@ module CreateRental
     print 'Date: '
     date = gets.chomp
 
-    rental = Rental.new(date, @books[book_index], @people[person_index])
-    @rentals << rental
+    # @books[book_index].add_rental(@people[person_index], date)
+    @people[person_index].add_rental(@books[book_index], date)
+    # rental = Rental.new(date, @books[book_index], @people[person_index])
+    # @rentals << rental
 
     puts 'Rental created successfully'
   end
