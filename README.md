@@ -41,6 +41,8 @@
 
 - **Ruby classes for person, student and teacher**
 - **Uses a decorator class to capitalize and trim string**
+- **Interactive UI**
+- **Refactor code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,8 +85,7 @@ git clone git@github.com:Bifabig/school-library-ruby.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Books class **
-- **Simple UI **
+- **Store Data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
