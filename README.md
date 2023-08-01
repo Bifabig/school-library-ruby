@@ -79,6 +79,11 @@ git clone git@github.com:Bifabig/school-library-ruby.git
 - Twitter: [@biftu94](https://twitter.com/biftu94)
 - LinkedIn: [Biftu Girma](https://www.linkedin.com/in/biftu-girma/)
 
+👤 **Peter Akhigbe**
+
+- GitHub: [@peter-akhigbe](https://github.com/peter-akhigbe)
+- LinkedIn: [peter-akhigbe](https://linkedin.com/in/peter-akhigbe)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
