@@ -11,6 +11,7 @@ module PreserveData
       space: ' '
     }
 
+    # Write to JSON file...
     File.write('people.json', JSON.generate(@people, opts)) unless @people.empty?
     File.write('books.json', JSON.generate(@books, opts)) unless @books.empty?
     File.write('rentals.json', JSON.generate(@rentals, opts)) unless @rentals.empty?
