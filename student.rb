@@ -11,4 +11,22 @@ class Student < Person
   def play_hooky
     '¯\(ツ)/¯'
   end
+
+  def to_json(*args)
+    {
+      JSON.create_id => self.class.name,
+      'id' => @id,
+      'age' => @age,
+      'name' => @name,
+      'classroom' => @classroom.label,
+      'parent_permission' => @parent_permission
+    }.to_json(*args)
+  end
+
+  def self.json_create(object)
+    classroom = Classroom.new(object['classroom'])
+    student = new(classroom, object['age'], object['name'], parent_permission: object['parent_permission'])
+    student.instance_variable_set(:@id, object['id'])
+    student
+  end
 end
