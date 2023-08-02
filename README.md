@@ -43,6 +43,7 @@
 - **Uses a decorator class to capitalize and trim string**
 - **Interactive UI**
 - **Refactor code**
+- **Data Preservation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,6 +87,7 @@ git clone git@github.com:Bifabig/school-library-ruby.git
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Store Data**
+- **Unit Testing**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
