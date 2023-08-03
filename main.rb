@@ -1,3 +1,4 @@
+require 'json'
 require_relative 'app'
 require_relative 'takeinput'
 
@@ -9,6 +10,20 @@ class Main
 
   def prompt
     puts 'Welcome to the School Library App!'
+    puts 'previous data:'
+    if File.exist?('people.json')
+      file = File.read('./people.json')
+      @app.people = JSON.parse(file, create_additions: true)
+    end
+    if File.exist?('books.json')
+      file = File.read('./books.json')
+      @app.books = JSON.parse(file, create_additions: true)
+    end
+    if File.exist?('rentals.json')
+      file = File.read('./rentals.json')
+      @app.books = JSON.parse(file, create_additions: true)
+    end
+
     loop do
       display_options
       option = TakeInput.new.take_input
