@@ -12,8 +12,9 @@ module CreateRental
     person_index = gets.chomp.to_i
     print 'Date: '
     date = gets.chomp
-    @people[person_index].add_rental(@books[book_index], date)
+    rental = @people[person_index].add_rental(@books[book_index], date)
 
+    @rentals << rental
     puts 'Rental created successfully'
   end
 end

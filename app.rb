@@ -9,9 +9,10 @@ require_relative 'createrental'
 require_relative 'displaybooks'
 require_relative 'displaypeople'
 require_relative 'rentallist'
+require_relative 'preservedata'
 
 class App
-  attr_accessor :books, :stundents, :teachers, :rental
+  attr_accessor :books, :stundents, :teachers, :rental, :people, :rentals
 
   include CreatePerson
   include CreateStudent
@@ -21,10 +22,12 @@ class App
   include DisplayPeople
   include DisplayBooks
   include RentalList
+  include PreserveData
 
   def initialize
     @people = []
     @books = []
+    @rentals = []
   end
 
   def run(option)
@@ -42,6 +45,7 @@ class App
     when 6
       rental_list
     else
+      preserve_data
       puts 'Thank you for using this app!'
       exit
     end
