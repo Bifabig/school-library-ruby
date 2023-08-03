@@ -22,8 +22,8 @@ class Rental
   end
 
   def self.json_create(object)
-    book = object['book']
-    person = object['person']
+    person = (object['person'])
+    book = (object['book'])
     new(object['date'], book, person)
   end
 end

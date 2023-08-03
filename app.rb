@@ -12,7 +12,7 @@ require_relative 'rentallist'
 require_relative 'preservedata'
 
 class App
-  attr_accessor :books, :stundents, :teachers, :rental, :people
+  attr_accessor :books, :stundents, :teachers, :rental, :people, :rentals
 
   include CreatePerson
   include CreateStudent
