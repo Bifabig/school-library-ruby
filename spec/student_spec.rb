@@ -19,4 +19,10 @@ describe Student do
       expect(@student.classroom.students.length).to eq(1)
     end
   end
+
+  describe '#play_hooky' do
+    it 'play_hooky method should return an emoji' do
+      expect(@student.play_hooky).to eq('¯\(ツ)/¯')
+    end
+  end
 end
